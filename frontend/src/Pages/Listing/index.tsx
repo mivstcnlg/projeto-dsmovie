@@ -11,6 +11,15 @@ const Listing = () => {
                     <div className="col-sm-6">
                         <MovieCard/>
                     </div>
+                    <div className="col-sm-6">
+                        <MovieCard/>
+                    </div>
+                    <div className="col-sm-6">
+                        <MovieCard/>
+                    </div>
+                    <div className="col-sm-6">
+                        <MovieCard/>
+                    </div>
                 </div>
             </div>
         
