@@ -1,19 +1,17 @@
 package com.emelly.dsmovie.entities;
 
-<<<<<<< HEAD
+
 import java.util.HashSet;
 import java.util.Set;
 
-=======
->>>>>>> 0449e71f8a9e4746a3c405d20e615204b4b28e68
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-<<<<<<< HEAD
+
 import javax.persistence.OneToMany;
-=======
->>>>>>> 0449e71f8a9e4746a3c405d20e615204b4b28e68
+
 import javax.persistence.Table;
 
 @Entity
@@ -28,12 +26,11 @@ public class Movie {
 	private Integer count;
 	private String image;
 	
-<<<<<<< HEAD
+
 	@OneToMany(mappedBy = "id.movie")
 	private Set<Score> scores = new HashSet<>();
 	
-=======
->>>>>>> 0449e71f8a9e4746a3c405d20e615204b4b28e68
+
 	public Movie() {	
 	}
 
@@ -84,16 +81,10 @@ public class Movie {
 	public void setImage(String image) {
 		this.image = image;
 	}
-<<<<<<< HEAD
+
 
 	public Set<Score> getScores() {
 		return scores;
 	}
 
-		
-=======
-	
-	
-	
->>>>>>> 0449e71f8a9e4746a3c405d20e615204b4b28e68
 }
